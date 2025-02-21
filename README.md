@@ -16,18 +16,18 @@ O foco principal do sistema está na administração de sites por meio da interf
 O projeto segue a estrutura básica de um aplicativo Django, com a adição de arquivos de configuração para Docker. Abaixo está um resumo da estrutura de diretórios:
 
 ```
-/meu_projeto_votacao/
+/mysite/
 │
 ├── Dockerfile
 ├── docker-compose.yml
 ├── manage.py
-├── meu_projeto_votacao/
+├── mysite/
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
 │
-└── votacao/
+└── polls/
     ├── __init__.py
     ├── admin.py
     ├── apps.py
