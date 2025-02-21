@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-# import dj_database_url
+import dj_database_url
 import os
 from pathlib import Path
+# import psycopg2
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -88,6 +89,17 @@ DATABASES = {
 #     'default': dj_database_url.config(
 #         default=f"postgres://{os.getenv('POSTGRES_USER')}:{os.getenv('POSTGRES_PASSWORD')}@db:5432/{os.getenv('POSTGRES_DB')}"
 #     )
+# }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'Banco',
+#         'USER': 'admin',
+#         'PASSWORD': 'admin',
+#         'HOST': '0.0.0.8080',
+#         'PORT': '0.0.0.7000',
+#     }
 # }
 
 
