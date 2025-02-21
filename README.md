@@ -43,9 +43,9 @@ O projeto segue a estrutura básica de um aplicativo Django, com a adição de a
 
 - **`Dockerfile`** → Define como o ambiente do projeto será montado em um container Docker.
 - **`docker-compose.yml`** → Configurações para gerenciar múltiplos serviços (ex.: banco de dados e aplicação Django).
-- **`meu_projeto_votacao/settings.py`** → Configurações globais do projeto, incluindo banco de dados.
-- **`votacao/models.py`** → Define os modelos de dados usados no sistema de votação (Pergunta e Escolha).
-- **`votacao/admin.py`** → Customiza a interface do Django Admin para gerenciar perguntas e escolhas.
+- **`mysite/settings.py`** → Configurações globais do projeto, incluindo banco de dados.
+- **`polls/models.py`** → Define os modelos de dados usados no sistema de votação (Pergunta e Escolha).
+- **`polls/admin.py`** → Customiza a interface do Django Admin para gerenciar perguntas e escolhas.
 
 ---
 
